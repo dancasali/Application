@@ -1,0 +1,17 @@
+#!/bin/bash
+echo "Content-Type: text/html"
+echo ""
+echo "<center>"
+echo "<h1>"
+echo "Running application on Both Power and x86 at the same time using same data"
+echo "</h1>"
+echo "<h1>"
+echo "Today is $(date)"
+echo "</h1>"
+echo "<h1>"
+echo "$(uname -a)"
+echo "</h1>"
+echo "<h1>"
+echo SERVER_SOFTWARE = $SERVER_SOFTWARE
+echo "</h1>"
+echo "</center>"
